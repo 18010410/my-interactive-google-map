@@ -1,0 +1,30 @@
+/*map container*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 90vh;
+    width: 100%;
+    
+}
+#search-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    display: flex;
+}
+#search-box {
+    height: 3vh;
+    width: 350px;
+    padding-right: 10px;
+}
+/*#clear-button {
+    height: 3.5vh;
+    cursor: pointer;
+}*/
